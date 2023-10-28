@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "irf-poc"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Saint-John <bsaintjo@ucsc.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+cython = "<3"
+numpy = "<1.18"
+scipy = "1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
